@@ -1,0 +1,30 @@
+{
+  "botWelcome": "*Hello! I am {botName}!*\nI was made with love by some nerds who really love programming!\n\n*Before using, you need to read the privacy policy (/privacy) to understand where your data goes when using this bot.*\n\nAlso, you can use /help to see the bot commands!",
+  "isChildPrivacy": "Since this bot is based on [{fatherBot}](https://t.me/{fatherBotUser}), the licensing and the privacy policy remains the same.\n\n",
+  "botPrivacy": "Check it out [this link]({privacyPolicy}) to read the bot's privacy policy.",
+  "botAbout": "*About the bot*\n\nThe bot base was originally created by [Lucas Gabriel (lucmsilva)](https://github.com/lucmsilva651), now maintained by several people.\n\nThe bot's purpose is to bring fun to your groups here on Telegram in a relaxed and simple way. The bot also features some very useful commands, which you can see using the help command (/help).\n\nSpecial thanks to @givfnz2 for his many contributions to the bot!\n\nSee the source code: [Click here to go to GitHub]({sourceLink})",
+  "aboutBot": "About the bot",
+  "varStrings": {
+    "varYes": "Yes",
+    "varNo": "No",
+    "varTo": "to",
+    "varIs": "is",
+    "varWas": "was",
+    "varNone": "None",
+    "varUnknown": "Unknown",
+    "varBack": "Back"
+  },
+  "ponyApi": {
+    "helpDesc": "*My Little Pony*\n\n- /mlp: Displays this help message.\n- /mlpchar `<character name>`: Shows specific information about a My Little Pony character. Example: `/mlpchar Twilight Sparkle`\n- /mlpep: Shows specific information about a My Little Pony episode. Example: `/mlpep 136`\n- /mlpcomic `<comic name>`: Shows specific information about a My Little Pony comic. Example: `/mlpcomic Nightmare Rarity`\n- /rpony | /randompony: Sends a random artwork made by the My Little Pony community.",
+    "charRes": "*{name} (ID: {id})*\n\n*Alias*: `{alias}`\n*Sex:* `{sex}`\n*Residence:* `{residence}`\n*Occupation:* `{occupation}`\n*Kind:* `{kind}`\n\n*Fandom URL:* [{url}]({url})",
+    "epRes": "*{name} (ID: {id})*\n\n*Season:* `{season}`\n*Episode:* `{episode}`\n*Overall Ep.:* `{overall}`\n*Release date:* `{airdate}`\n*Story by:* `{storyby}`\n*Written by:* `{writtenby}`\n*Storyboard:* `{storyboard}`\n\n*Fandom URL:* [{url}]({url})",
+    "comicRes": "*{name} (ID: {id})*\n\n*Series:* `{series}`\n*Writer:* `{writer}`\n*Artist:* `{artist}`\n*Colorist:* `{colorist}`\n*Letterer:* `{letterer}`\n*Editor:* `{editor}`\n\n*Fandom URL:* [{url}]({url})",
+    "noCharName": "Please provide the character's name.",
+    "noCharFound": "No character found.",
+    "noEpisodeNum": "Please provide the episode's number.",
+    "noEpisodeFound": "No episode found.",
+    "noComicName": "Please provide the comic's name.",
+    "noComicFound": "No comic found.",
+    "apiErr": "An error occurred while fetching data from the API.\n\n`{error}`"
+  }
+}
