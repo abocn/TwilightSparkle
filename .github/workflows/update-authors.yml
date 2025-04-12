@@ -8,10 +8,14 @@ on:
 jobs:
   update-authors:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Generate AUTHORS file (Name <email> format)
         run: |
@@ -25,8 +29,9 @@ jobs:
           fi
 
       - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9.1.4
         with:
-          uses: EndBug/add-and-commit@v9.1.4
+          push: true
           add: "AUTHORS"
           default_author: github_actions
           message: "Update AUTHORS file automatically"
